@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         func createBasicListLayout() -> UICollectionViewLayout {
-          // item 구성
           let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                 heightDimension: .fractionalHeight(1.0))
 
